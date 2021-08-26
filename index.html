@@ -9,14 +9,26 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>Infernal University - Home</title>
 </head>
 
 <body>
+    <header class="container mt-3">
+        <div>
+            <button class="btn btn-danger btn-sm">Alerts <span class="badge badge-pill badge-dark">3</span></button>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <h4 class="alert-heading">Beware:</h4>
+                You are running out of time!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h1>Infernal University</h1>
-        <h2>Today is the first day of the rest of your life</h2>
-        <p>
+        <h1 class="display-1 text-center text-danger">Infernal University</h1>
+        <h2 class="display-4 text-danger">Today is the first day of the rest of your life</h2>
+        <p class="lead">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, alias. Ipsum corrupti voluptatibus, eius
             dolorem quo tempore numquam minima delectus reprehenderit rem molestiae natus rerum adipisci excepturi, iure
             provident ipsa!
@@ -27,6 +39,26 @@
             repudiandae? Ex facere provident blanditiis et id aliquid, quam tempore voluptatem illum molestiae? Aut
             distinctio odio minima rerum.
         </p>
+        <div class="text-center">
+            <button type="button" class="btn btn-outline-danger btn-lg">Enroll</button>
+            <button type="button" class="btn btn-danger btn-lg">Info</button>
+        </div>
+        <blockquote class="blockquote mt-3">
+            <p class="mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, repellat fugiat minima ullam harum animi
+                libero! Consequatur error nisi rerum aut! Iusto repellendus repudiandae, voluptas cumque ad aspernatur
+                beatae exercitationem.
+            </p>
+            <footer class="blockquote-footer">Lucifer</footer>
+        </blockquote>
+        <div>
+            <h3>Success stories</h3>
+            <div class="btn-group">
+                <button class="btn btn-danger">Grim</button>
+                <button class="btn btn-danger">Thanatos</button>
+                <button class="btn btn-danger">Hades</button>
+            </div>
+        </div>
     </div>
 </body>
 
